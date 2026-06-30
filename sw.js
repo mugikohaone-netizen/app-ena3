@@ -1,4 +1,4 @@
-const CACHE = 'app-mr0p94ol';
+const CACHE = 'app-mr0phd4h';
 const FILES = ['./','./index.html'];
 self.addEventListener('install',e=>{
   e.waitUntil(caches.open(CACHE).then(c=>c.addAll(FILES)).then(()=>self.skipWaiting()));
